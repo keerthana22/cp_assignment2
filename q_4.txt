@@ -1,0 +1,8 @@
+In this the player rolls the dice and adds up the face values.If the sum is 7 or 11 in the first throw 
+then the player wins.if the first roll sum is 2,3,12 then the player looses. And if the first roll sum is any other
+number that the sum becomes the player's point.In the rand() function is used to create 2 random numbers for the variables
+dice1 and dice2 b/w 1&6. To win the player must continue rolling the dice untill he/she "makes point".The player looses by rolling
+a 7 before the point.Switch statement is used here.Then a while loop starts execuitng if continue=gamestatus.In the loop 2 values
+are generated using rand() function. Then sum is calculated. The sum and mypoint are compared.If the condition becomes true game
+status will be won.Else the statement check whether sum is 7, if true game status will be lost.While loop executed till here.Then 
+using another if statement if(won=gamestatus) is compared if this is true print Playerwon else print Playerlooses.
