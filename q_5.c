@@ -63,17 +63,17 @@ gameStatus = LOST;
 }
 }
 if(WON == gameStatus)
-{
-bankBalance=betAmount+bankBalance; printf("You Win\n") ;
-printf("Bank Balance=%d", bankBalance) ;
-}
-else
-{
-printf("You Loose\n");
-bankBalance=bankBalance-betAmount;
-printf("Bank Balance=%d\n", bankBalance) ;
-If(bankBalance==0)
-printf("Sorry you Busted!") ;
-}
+ {
+  bankBalance=betAmount+bankBalance; printf("You Win\n") ;
+  printf("Bank Balance=%d", bankBalance) ;
+ }
+ else
+ {
+ printf("You Loose\n");
+ bankBalance=bankBalance-betAmount;
+ printf("Bank Balance=%d\n", bankBalance) ;
+ If(bankBalance==0)
+ printf("Sorry you Busted!") ;
+ }
 return 0;
 }
